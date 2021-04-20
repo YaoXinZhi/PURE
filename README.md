@@ -111,18 +111,12 @@ You can run the evaluation script to output the end-to-end performance  (`Ent`, 
 python run_eval.py --prediction_file {path to output_dir}/predictions.json
 ```
 
-**Performance of pretrained models on ACE05 test set**:
-* BERT (single)
+**Performance of pretrained models on AGAC test set**:
+* BERT-base-cased (single)
 ```
-NER - P: 0.890260, R: 0.882944, F1: 0.886587
+NER - P: 0.68523, R: 0.69790, F1: 0.69151
 REL - P: 0.689624, R: 0.652476, F1: 0.670536
 REL (strict) - P: 0.664830, R: 0.629018, F1: 0.646429
-```
-* BERT-approx (single)
-```
-NER - P: 0.890260, R: 0.882944, F1: 0.886587
-REL - P: 0.678899, R: 0.642919, F1: 0.660419
-REL (strict) - P: 0.651376, R: 0.616855, F1: 0.633646
 ```
 * ALBERT (single)
 ```
@@ -130,17 +124,11 @@ NER - P: 0.900237, R: 0.901388, F1: 0.900812
 REL - P: 0.739901, R: 0.652476, F1: 0.693444
 REL (strict) - P: 0.698522, R: 0.615986, F1: 0.654663
 ```
-* BERT (cross)
+* BERT-base-cased (cross)
 ```
 NER - P: 0.902111, R: 0.905405, F1: 0.903755
 REL - P: 0.701950, R: 0.656820, F1: 0.678636
 REL (strict) - P: 0.668524, R: 0.625543, F1: 0.646320
-```
-* BERT-approx (cross)
-```
-NER - P: 0.902111, R: 0.905405, F1: 0.903755
-REL - P: 0.684448, R: 0.657689, F1: 0.670802
-REL (strict) - P: 0.659132, R: 0.633362, F1: 0.645990
 ```
 * ALBERT (cross)
 ```
