@@ -112,30 +112,12 @@ python run_eval.py --prediction_file {path to output_dir}/predictions.json
 ```
 
 **Performance of pretrained models on AGAC test set**:
-* BERT-base-cased (single)
-```
-NER - P: 0.68523, R: 0.69790, F1: 0.69151
-REL - P: 0.689624, R: 0.652476, F1: 0.670536
-REL (strict) - P: 0.664830, R: 0.629018, F1: 0.646429
-```
-* ALBERT (single)
-```
-NER - P: 0.900237, R: 0.901388, F1: 0.900812
-REL - P: 0.739901, R: 0.652476, F1: 0.693444
-REL (strict) - P: 0.698522, R: 0.615986, F1: 0.654663
-```
+
 * BERT-base-cased (cross)
 ```
-NER - P: 0.68523, R: 0.69790, F1: 0.69151  -- 2021-04-20
-REL - P: 0.701950, R: 0.656820, F1: 0.678636
-REL (strict) - P: 0.668524, R: 0.625543, F1: 0.646320
+NER-All instance - P: 0.41667, R: 0.04677, F1: 0.08410  -- 2021-04-20
 ```
-* ALBERT (cross)
-```
-NER - P: 0.911111, R: 0.905953, F1: 0.908525
-REL - P: 0.748521, R: 0.659427, F1: 0.701155
-REL (strict) - P: 0.723866, R: 0.637706, F1: 0.678060
-```
+
 
 ## Citation
 If you use this code in your research, please cite fllow work:
